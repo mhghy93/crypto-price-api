@@ -1,6 +1,4 @@
 const mongoose = require('mongoose');
-const MONGO_URI =
-  'mongodb+srv://mh:uFMNoOnzaOZ8Bc5B@cluster0.f7di2.mongodb.net/crypto-currency?retryWrites=true&w=majority';
 const dotenv = require('dotenv');
 
 dotenv.config();

@@ -8,9 +8,8 @@ connectDB();
 
 app.use(express.json());
 
-app.get('/', (req, res) => res.send('API running'));
-
 // Define routes
+app.use('/api/user', require('./routes/user'));
 
 const PORT = process.env.PORT || 5000;
 

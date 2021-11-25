@@ -10,6 +10,7 @@ app.use(express.json());
 
 // Define routes
 app.use('/api/user', require('./routes/user'));
+app.use('/api/crypto/prices', require('./routes/coin'));
 
 const PORT = process.env.PORT || 5000;
 
